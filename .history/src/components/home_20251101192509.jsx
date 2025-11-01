@@ -128,9 +128,7 @@ const Home = () => {
           </div>
 
 
-          <div className="row">
-            <div className="col-md-4"></div>
-          </div>
+          .
         </div>
       </footer>
     </>
