@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import logoBlack from '../assets/images/logo-white.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -12,7 +12,6 @@ import SliderTwoImg from '../assets/images/banner-2.jpg'
 import LatestProduct from './common/LatestProduct';
 import FeaturedProducts from './common/FeaturedProducts';
 import Header from './common/Header';
-import Footer from './common/Footer';
 
 
 const Home = () => {
@@ -50,7 +49,7 @@ const Home = () => {
       <FeaturedProducts />
 
       {/* footer */}
-      <Footer />
+
     </>
   )
 }
