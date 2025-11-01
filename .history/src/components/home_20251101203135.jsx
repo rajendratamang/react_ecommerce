@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 import LatestProduct from './common/LatestProduct';
 import FeaturedProducts from './common/FeaturedProducts';
 import Hero from './common/Hero';

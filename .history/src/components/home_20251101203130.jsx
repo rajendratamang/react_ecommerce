@@ -1,4 +1,10 @@
 import React from 'react'
+
+
+// Import Swiper React components
+
+
+
 import LatestProduct from './common/LatestProduct';
 import FeaturedProducts from './common/FeaturedProducts';
 import Hero from './common/Hero';
