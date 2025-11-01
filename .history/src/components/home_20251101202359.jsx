@@ -4,7 +4,11 @@ import React from 'react'
 // Import Swiper React components
 
 
+// Import Swiper styles
+import 'swiper/css';
 
+import SliderOneImg from '../assets/images/banner-1.jpg'
+import SliderTwoImg from '../assets/images/banner-2.jpg'
 import LatestProduct from './common/LatestProduct';
 import FeaturedProducts from './common/FeaturedProducts';
 import Header from './common/Header';
