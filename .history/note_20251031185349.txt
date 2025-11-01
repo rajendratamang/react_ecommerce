@@ -1,0 +1,21 @@
+//react vite
+npm create vite@latest my-react-app -- --template react
+
+
+//react router dom
+npm install react-router-dom
+
+
+//form
+
+npm install react-hook-form
+
+//toast message
+
+npm i react-toastify
+
+
+//vs plugin
+ES7 React/Redux/GraphQL/React-Native snippets
+
+//rafce
