@@ -1,5 +1,4 @@
 import React from 'react'
-
 import logoBlack from '../assets/images/logo-white.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,11 +13,12 @@ import FeaturedProducts from './common/FeaturedProducts';
 import Header from './common/Header';
 
 
+
 const Home = () => {
   return (
     <>
       {/* header */}
-      <Header />
+      <Header />>
       <section className='section-1'>
         {/* /**** Swiper Slider Main **********/}
         <Swiper
@@ -112,7 +112,7 @@ const Home = () => {
           </div>
         </div>
       </footer>
-    </>
+    </Header >
   )
 }
 

@@ -1,5 +1,7 @@
 import React from 'react'
-
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import logo from '../assets/images/logo.png'
 import logoBlack from '../assets/images/logo-white.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -17,8 +19,8 @@ import Header from './common/Header';
 const Home = () => {
   return (
     <>
-      {/* header */}
-      <Header />
+     {/* header */}
+<Header/>
       <section className='section-1'>
         {/* /**** Swiper Slider Main **********/}
         <Swiper
