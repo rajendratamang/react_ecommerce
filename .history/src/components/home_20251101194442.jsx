@@ -151,12 +151,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-
-          <div className="row">
-            <div className="col-md-12 text-center pt-5">
-              <p>&copy; 2025 all right reserved</p>
-            </div>
-          </div>
         </div>
       </footer>
     </>
