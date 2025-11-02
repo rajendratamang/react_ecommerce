@@ -18,19 +18,13 @@ const Shop = () => {
                             <div className="card-body p-4">
                                 <h3>Categories</h3>
                                 <ul>
-                                    <li className='mb-2'>
+                                    <li>
                                         <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Kids</label>
+                                        <label htmlFor=""></label>
                                     </li>
-                                    <li className='mb-2'>
-                                        <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Mens</label>
-                                    </li>
-                                    <li className='mb-2'>
-                                        <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Kids</label>
-                                    </li>
-
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
                                 </ul>
                             </div>
                         </div>

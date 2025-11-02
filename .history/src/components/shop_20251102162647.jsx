@@ -26,7 +26,7 @@ const Shop = () => {
                                         <input type="checkbox" />
                                         <label htmlFor="" className='ps-2'>Mens</label>
                                     </li>
-                                    <li className='mb-2'>
+                                    <li>
                                         <input type="checkbox" />
                                         <label htmlFor="" className='ps-2'>Kids</label>
                                     </li>
