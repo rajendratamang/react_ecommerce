@@ -34,26 +34,6 @@ const Shop = () => {
                                 </ul>
                             </div>
                         </div>
-                          <div className="card shadow border-0 mb-3">
-                            <div className="card-body p-4">
-                                <h3 className='mb-3'>Brands</h3>
-                                <ul>
-                                    <li className='mb-2'>
-                                        <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Puma</label>
-                                    </li>
-                                    <li className='mb-2'>
-                                        <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Killer</label>
-                                    </li>
-                                    <li className='mb-2'>
-                                        <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Levis</label>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                     <div className="col-md-9">
 

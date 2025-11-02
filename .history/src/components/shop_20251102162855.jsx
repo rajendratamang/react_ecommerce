@@ -36,19 +36,19 @@ const Shop = () => {
                         </div>
                           <div className="card shadow border-0 mb-3">
                             <div className="card-body p-4">
-                                <h3 className='mb-3'>Brands</h3>
+                                <h3 className='mb-3'>Categories</h3>
                                 <ul>
                                     <li className='mb-2'>
                                         <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Puma</label>
+                                        <label htmlFor="" className='ps-2'>Kids</label>
                                     </li>
                                     <li className='mb-2'>
                                         <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Killer</label>
+                                        <label htmlFor="" className='ps-2'>Mens</label>
                                     </li>
                                     <li className='mb-2'>
                                         <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Levis</label>
+                                        <label htmlFor="" className='ps-2'>Kids</label>
                                     </li>
 
                                 </ul>
