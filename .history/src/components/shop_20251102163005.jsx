@@ -54,10 +54,6 @@ const Shop = () => {
                                         <input type="checkbox" />
                                         <label htmlFor="" className='ps-2'>Flying Machine</label>
                                     </li>
-                                     <li className='mb-2'>
-                                        <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Mama Earth</label>
-                                    </li>
                                 </ul>
                             </div>
                         </div>

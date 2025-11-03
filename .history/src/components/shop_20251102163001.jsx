@@ -34,7 +34,7 @@ const Shop = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="card shadow border-0 mb-3">
+                          <div className="card shadow border-0 mb-3">
                             <div className="card-body p-4">
                                 <h3 className='mb-3'>Brands</h3>
                                 <ul>
@@ -50,13 +50,9 @@ const Shop = () => {
                                         <input type="checkbox" />
                                         <label htmlFor="" className='ps-2'>Levis</label>
                                     </li>
-                                    <li className='mb-2'>
+ <li className='mb-2'>
                                         <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Flying Machine</label>
-                                    </li>
-                                     <li className='mb-2'>
-                                        <input type="checkbox" />
-                                        <label htmlFor="" className='ps-2'>Mama Earth</label>
+                                        <label htmlFor="" className='ps-2'>Levis</label>
                                     </li>
                                 </ul>
                             </div>
