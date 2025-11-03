@@ -64,7 +64,8 @@ const Shop = () => {
                         </div>
                     </div>
                     <div className="col-md-9">
-                            <div className="col-md-4 col-6" >
+                        {products.map((product, index) => (
+                            <div className="col-md-4 col-6" key={index}>
                                 <div className="product card border-0">
                                     <div className="card-img">
                                         <img src={ProductImg} alt="" className='w-100' />
@@ -77,6 +78,7 @@ const Shop = () => {
                                     </div>
                                 </div>
                             </div>
+                        ))}
 
                     </div>
                 </div>

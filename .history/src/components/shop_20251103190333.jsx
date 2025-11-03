@@ -64,6 +64,7 @@ const Shop = () => {
                         </div>
                     </div>
                     <div className="col-md-9">
+                        {products.map((product, index) => (
                             <div className="col-md-4 col-6" >
                                 <div className="product card border-0">
                                     <div className="card-img">
@@ -77,6 +78,7 @@ const Shop = () => {
                                     </div>
                                 </div>
                             </div>
+                        ))}
 
                     </div>
                 </div>
