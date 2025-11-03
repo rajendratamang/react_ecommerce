@@ -64,25 +64,21 @@ const Shop = () => {
                         </div>
                     </div>
                     <div className="col-md-9">
-
+{products.map((product, index) => (
                         <div className="row">
-                            {products.map((product, index) => (
-
-                                <div className="col-md-4 col-6" key={index}>
-                                    <div className="product card border-0">
-                                        <div className="card-img">
-                                            <img src={ProductImg} alt="" className='w-100' />
-                                        </div>
-                                        <div className="card-body pt-3">
-                                            <a href="">Red Check Shirt For Woman</a>
-                                            <div className="price">
-                                                $50 <span className='text-decoration-line-through'>$80</span>
-                                            </div>
+                            <div className="col-md-4 col-6" key={index}>
+                                <div className="product card border-0">
+                                    <div className="card-img">
+                                        <img src={ProductImg} alt="" className='w-100' />
+                                    </div>
+                                    <div className="card-body pt-3">
+                                        <a href="">Red Check Shirt For Woman</a>
+                                        <div className="price">
+                                            $50 <span className='text-decoration-line-through'>$80</span>
                                         </div>
                                     </div>
                                 </div>
-                            ))}
-
+                            </div>
                         </div>
                     </div>
                 </div>
