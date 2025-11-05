@@ -169,8 +169,7 @@ footer {
 
         a {
             font-size: 1.2 em;
-
-            &:hover {
+            &:hover{
                 color: $primary-color;
             }
 
@@ -184,12 +183,5 @@ footer {
             }
         }
     }
-
-    .product-detail {
-        .mySwiper {
-            .swiper-slide {
-                height: auto !important;
-            }
-        }
-    }
+    .product-detail
 }

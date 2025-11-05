@@ -89,22 +89,6 @@ const Product = () => {
                             <SwiperSlide >
                                 <div className='content'>
                                     <img
-                                        src={ProductImgOne}
-                                        alt=""
-                                        className='w-100' />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide >
-                                <div className='content'>
-                                    <img
-                                        src={ProductImgTwo}
-                                        alt=""
-                                        className='w-100' />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide >
-                                <div className='content'>
-                                    <img
                                         src={ProductImgThree}
                                         alt=""
                                         className='w-100' />
