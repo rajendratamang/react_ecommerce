@@ -9,8 +9,8 @@ const Product = () => {
                     <nav aria-label="breadcrumb" className='py-4'>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><Link href="/home">Home</Link></li>
-                            <li class="breadcrumb-item" aria-current="page"><Link href="/shop">Shop</Link></li>
-                            <li class="breadcrumb-item active" aria-current="page">Dummy Product Title</li>
+                            <li class="breadcrumb-item active" aria-current="page"><Link href="/shop">Shop</Link></li>
+                            <li class="breadcrumb-item " aria-current="page"><Link href="/shop">Dummy Product Title</Link></li>
                         </ol>
                     </nav>
                 </div>
