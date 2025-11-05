@@ -120,39 +120,14 @@ const Product = () => {
                         <h2>Dummy Product Title</h2>
                         <div className="d-flex">
                             <Rating
-                                size={20}
-                                readonly
-                                initialValue={rating}
+                            size = {20}
+                            readonly
+                            initialValue={rating} 
 
                             /* Available Props */
                             />
                             <span className='pt-1 ps-2'>10 Reviews</span>
-
-                        </div>
-                        <div className="price h3">
-                            Rs.200 <span className='text-decoration-line-through'>180</span>
-                        </div>
-                        <div className="">
-                            100% Original Products <br />
-                            pay on delivery might be available <br />
-                            easy 15 days return and exchanges
-                        </div>
-                        <div className="pt-3">
-                            <strong className=''>Select Size</strong>
-                            <div className="sizes pt-2">
-                                <button className="btn btn-size ">S</button>
-                                <button className="btn btn-size ms-1">M</button>
-                                <button className="btn btn-size ms-1">L</button>
-                                <button className="btn btn-size ms-1">XL</button>
-                            </div>
-                        </div>
-                        <div className="add-to-cart my-4">
-                            <button className="btn btn-primary">Add To Cart</button>
-                        </div>
-                        <hr />
-                        <div className="">
-                            <strong>SKU</strong>
-                            DDXX2233
+                            /
                         </div>
                     </div>
                 </div>

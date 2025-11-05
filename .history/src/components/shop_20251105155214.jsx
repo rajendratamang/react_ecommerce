@@ -82,7 +82,9 @@ const Shop = () => {
                                                 $50 <span className='text-decoration-line-through'>$80</span>
                                             </div>
                                         </div>
-                                        
+                                        <div className="">\
+                                            
+                                        </div>
                                     </div>
                                 </div>
                             ))}

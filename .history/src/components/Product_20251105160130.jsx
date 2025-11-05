@@ -150,10 +150,7 @@ const Product = () => {
                             <button className="btn btn-primary">Add To Cart</button>
                         </div>
                         <hr />
-                        <div className="">
-                            <strong>SKU</strong>
-                            DDXX2233
-                        </div>
+                        .
                     </div>
                 </div>
             </div>

@@ -82,7 +82,10 @@ const Shop = () => {
                                                 $50 <span className='text-decoration-line-through'>$80</span>
                                             </div>
                                         </div>
-                                        
+                                        <div className="">\
+                                            100% Original Products <br />
+                                            pay on delivery might be availa
+                                        </div>
                                     </div>
                                 </div>
                             ))}

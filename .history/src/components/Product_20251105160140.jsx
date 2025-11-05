@@ -151,8 +151,7 @@ const Product = () => {
                         </div>
                         <hr />
                         <div className="">
-                            <strong>SKU</strong>
-                            DDXX2233
+                            <strong></strong>
                         </div>
                     </div>
                 </div>

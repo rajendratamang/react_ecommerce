@@ -152,7 +152,7 @@ const Product = () => {
                         <hr />
                         <div className="">
                             <strong>SKU</strong>
-                            DDXX2233
+                            DDXX@##$#
                         </div>
                     </div>
                 </div>

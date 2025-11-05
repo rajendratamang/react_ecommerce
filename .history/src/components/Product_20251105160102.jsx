@@ -146,13 +146,8 @@ const Product = () => {
                                 <button className="btn btn-size ms-1">XL</button>
                             </div>
                         </div>
-                        <div className="add-to-cart my-4">
+                        <div className="add-to-cart mt-4">
                             <button className="btn btn-primary">Add To Cart</button>
-                        </div>
-                        <hr />
-                        <div className="">
-                            <strong>SKU</strong>
-                            DDXX2233
                         </div>
                     </div>
                 </div>
