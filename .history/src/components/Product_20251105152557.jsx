@@ -24,7 +24,7 @@ const Product = () => {
                         </ol>
                     </nav>
                 </div>
-                <div className="row col-md-12 pb-5">
+                <div className="row col-md-12 pb-">
                     <div className="row col-md-5">
                     <div className="row col-2">
                         <Swiper

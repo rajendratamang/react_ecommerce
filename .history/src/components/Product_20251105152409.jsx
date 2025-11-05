@@ -24,8 +24,7 @@ const Product = () => {
                         </ol>
                     </nav>
                 </div>
-                <div className="row col-md-12 pb-5">
-                    <div className="row col-md-5">
+                <div className="row col-md-5">
                     <div className="row col-2">
                         <Swiper
                             style={{
@@ -116,7 +115,6 @@ const Product = () => {
                 </div>
                 <div className="col-md-7">
                     <h2>Dummy Product Title</h2>
-                </div>
                 </div>
             </div>
         </Layout>
