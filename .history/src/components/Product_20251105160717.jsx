@@ -161,7 +161,7 @@ const Product = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row pb-5">
+                <div className="row">
                     <div className="col-md-12">
                         <Tabs
                             defaultActiveKey="profile"

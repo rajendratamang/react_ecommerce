@@ -61,13 +61,9 @@ ul {
 .container {
     max-width: 1440px;
 }
-
-.nav-tabs {
-    .nav-link {
-        color: $primary-black;
-    }
+.nav-tabs  {
+.nav-link
 }
-
 .btn {
     &.btn-size {
         background-color: rgba($primary-black, 0.03);

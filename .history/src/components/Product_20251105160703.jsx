@@ -161,7 +161,7 @@ const Product = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row pb-5">
+                <div className="row">
                     <div className="col-md-12">
                         <Tabs
                             defaultActiveKey="profile"
@@ -169,10 +169,13 @@ const Product = () => {
                             className="mb-3"
                         >
                             <Tab eventKey="home" title="Description">
-                                Tab content for Description
+                                Tab content for Home
                             </Tab>
-                            <Tab eventKey="profile" title="Reviews (10)">
-                                Tab content for Reviews
+                            <Tab eventKey="profile" title="Profile">
+                                Tab content for Profile
+                            </Tab>
+                            <Tab eventKey="contact" title="Contact" disabled>
+                                Tab content for Contact
                             </Tab>
                         </Tabs>
                     </div>

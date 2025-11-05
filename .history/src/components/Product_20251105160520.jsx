@@ -31,7 +31,7 @@ const Product = () => {
                         </ol>
                     </nav>
                 </div>
-                <div className="row col-md-12 mb-5">
+                <div className="row col-md-12 pb-5">
                     <div className="row col-md-5">
                         <div className="row col-2">
                             <Swiper
@@ -159,22 +159,6 @@ const Product = () => {
                             <strong>SKU</strong>
                             DDXX2233
                         </div>
-                    </div>
-                </div>
-                <div className="row pb-5">
-                    <div className="col-md-12">
-                        <Tabs
-                            defaultActiveKey="profile"
-                            id="uncontrolled-tab-example"
-                            className="mb-3"
-                        >
-                            <Tab eventKey="home" title="Description">
-                                Tab content for Description
-                            </Tab>
-                            <Tab eventKey="profile" title="Reviews (10)">
-                                Tab content for Reviews
-                            </Tab>
-                        </Tabs>
                     </div>
                 </div>
             </div>

@@ -161,22 +161,6 @@ const Product = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row pb-5">
-                    <div className="col-md-12">
-                        <Tabs
-                            defaultActiveKey="profile"
-                            id="uncontrolled-tab-example"
-                            className="mb-3"
-                        >
-                            <Tab eventKey="home" title="Description">
-                                Tab content for Description
-                            </Tab>
-                            <Tab eventKey="profile" title="Reviews (10)">
-                                Tab content for Reviews
-                            </Tab>
-                        </Tabs>
-                    </div>
-                </div>
             </div>
         </Layout>
     )
