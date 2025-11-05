@@ -10,10 +10,10 @@ import 'swiper/css/thumbs';
 import ProductImgOne from "../assets/images/Mens/five.jpg";
 import ProductImgTwo from "../assets/images/Mens/six.jpg";
 import ProductImgThree from "../assets/images/Mens/seven.jpg";
-import { Rating } from 'react-simple-star-rating'
+import React, { useState } from 'react'
 const Product = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
-    const [rating, setRating] = useState(4)
+    const [rating, setRating] = useState(4.5)
     return (
         <Layout>
             <div className="container product-detail">
@@ -118,16 +118,7 @@ const Product = () => {
                     </div>
                     <div className="col-md-7">
                         <h2>Dummy Product Title</h2>
-                        <div className="d-flex">
-                            <Rating
-                            size = {20}
-                            readonly
-                            initialValue={rating} 
-
-                            /* Available Props */
-                            />
-                            <span className='pt-1 ps-2'>10 Reviews</span>
-                        </div>
+                        <div className=""></div>
                     </div>
                 </div>
             </div>

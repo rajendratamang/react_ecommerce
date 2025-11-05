@@ -13,7 +13,7 @@ import ProductImgThree from "../assets/images/Mens/seven.jpg";
 import { Rating } from 'react-simple-star-rating'
 const Product = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
-    const [rating, setRating] = useState(4)
+    const [rating, setRating] = useState(4.5)
     return (
         <Layout>
             <div className="container product-detail">
@@ -118,15 +118,13 @@ const Product = () => {
                     </div>
                     <div className="col-md-7">
                         <h2>Dummy Product Title</h2>
-                        <div className="d-flex">
+                        <div className="">
                             <Rating
-                            size = {20}
                             readonly
                             initialValue={rating} 
 
                             /* Available Props */
                             />
-                            <span className='pt-1 ps-2'>10 Reviews</span>
                         </div>
                     </div>
                 </div>

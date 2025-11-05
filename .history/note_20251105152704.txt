@@ -26,8 +26,7 @@ npm install react-bootstrap bootstrap
 swiperjs.com/react
 
 
-//React star rating
-https://www.npmjs.com/package/react-simple-star-rating
+//
 
 //vs plugin
 ES7 React/Redux/GraphQL/React-Native snippets

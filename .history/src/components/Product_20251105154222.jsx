@@ -118,15 +118,13 @@ const Product = () => {
                     </div>
                     <div className="col-md-7">
                         <h2>Dummy Product Title</h2>
-                        <div className="d-flex">
+                        <div className="">
                             <Rating
-                            size = {20}
                             readonly
                             initialValue={rating} 
 
                             /* Available Props */
                             />
-                            <span className='pt-1 ps-2'>10 Reviews</span>
                         </div>
                     </div>
                 </div>

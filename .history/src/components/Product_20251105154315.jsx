@@ -126,7 +126,7 @@ const Product = () => {
 
                             /* Available Props */
                             />
-                            <span className='pt-1 ps-2'>10 Reviews</span>
+                            <span>10 Reviews</span>
                         </div>
                     </div>
                 </div>
