@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import ProductImgOne from "../assets/images/Mens/five.jpg";
 import ProductImgTwo from "../assets/images/Mens/six.jpg";
-import ProductImgThree from "../assets/images/Mens/seven.jpg";
+import ProductImgTwo from "../assets/images/Mens/six.jpg";
 const Product = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     return (
@@ -45,16 +45,7 @@ const Product = () => {
                             <SwiperSlide>
                                 <div className='content'>
                                     <img
-                                        src={ProductImgOne}
-                                        alt=""
-                                        height={100}
-                                        className='w-100' />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className='content'>
-                                    <img
-                                        src={ProductImgTwo}
+                                        src={ProductImg}
                                         alt=""
                                         height={100}
                                         className='w-100' />
@@ -80,7 +71,7 @@ const Product = () => {
                             <SwiperSlide >
                                 <div className='content'>
                                     <img
-                                        src={ProductImgThree}
+                                        src={ProductImg}
                                         alt=""
                                         className='w-100' />
                                 </div>

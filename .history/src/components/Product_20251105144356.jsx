@@ -51,15 +51,6 @@ const Product = () => {
                                         className='w-100' />
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <div className='content'>
-                                    <img
-                                        src={ProductImgTwo}
-                                        alt=""
-                                        height={100}
-                                        className='w-100' />
-                                </div>
-                            </SwiperSlide>
                         </Swiper>
                     </div>
                     <div className="col-10">
@@ -80,7 +71,7 @@ const Product = () => {
                             <SwiperSlide >
                                 <div className='content'>
                                     <img
-                                        src={ProductImgThree}
+                                        src={ProductImgTwo}
                                         alt=""
                                         className='w-100' />
                                 </div>

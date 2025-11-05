@@ -7,9 +7,6 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
-import ProductImgOne from "../assets/images/Mens/five.jpg";
-import ProductImgTwo from "../assets/images/Mens/six.jpg";
-import ProductImgThree from "../assets/images/Mens/seven.jpg";
 const Product = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     return (
@@ -45,16 +42,7 @@ const Product = () => {
                             <SwiperSlide>
                                 <div className='content'>
                                     <img
-                                        src={ProductImgOne}
-                                        alt=""
-                                        height={100}
-                                        className='w-100' />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className='content'>
-                                    <img
-                                        src={ProductImgTwo}
+                                        src={ProductImg}
                                         alt=""
                                         height={100}
                                         className='w-100' />
@@ -64,28 +52,6 @@ const Product = () => {
                     </div>
                     <div className="col-10">
 
-                        <Swiper
-                            style={{
-                                '--swiper-navigation-color': '#000',
-                                '--swiper-pagination-color': '#000',
-                            }}
-                            loop={true}
-                            spaceBetween={0}
-                            navigation={true}
-                            thumbs={thumbsSwiper ? { swiper: thumbsSwiper } : undefined}
-                            modules={[FreeMode, Navigation, Thumbs]}
-                            className="mySwiper2"
-                        >
-
-                            <SwiperSlide >
-                                <div className='content'>
-                                    <img
-                                        src={ProductImgThree}
-                                        alt=""
-                                        className='w-100' />
-                                </div>
-                            </SwiperSlide>
-                        </Swiper>
                     </div>
                 </div>
                 <div className="col-md-7"></div>

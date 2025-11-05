@@ -80,7 +80,7 @@ const Product = () => {
                             <SwiperSlide >
                                 <div className='content'>
                                     <img
-                                        src={ProductImgThree}
+                                        src={Produ}
                                         alt=""
                                         className='w-100' />
                                 </div>
