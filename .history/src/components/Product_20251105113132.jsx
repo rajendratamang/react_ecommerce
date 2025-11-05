@@ -8,8 +8,8 @@ const Product = () => {
                 <div className="row col-md-12">
                     <nav aria-label="breadcrumb" className='py-4'>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><Link href="/home">Home</Link></li>
-                            <li class="breadcrumb-item active" aria-current="page"><Link href="/shop">Shop</Link></li>
+                            <li class="breadcrumb-item"><link href="/home">Home</link></li>
+                            <li class="breadcrumb-item active" aria-current="page"><link href="/shop">Shop</link></li>
                         </ol>
                     </nav>
                 </div>

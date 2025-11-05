@@ -1,6 +1,5 @@
-import React from 'react';
-import Layout from './common/Layout';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import Layout from './common/Layout'
 const Product = () => {
     return (
         <Layout>
@@ -8,8 +7,8 @@ const Product = () => {
                 <div className="row col-md-12">
                     <nav aria-label="breadcrumb" className='py-4'>
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><Link href="/home">Home</Link></li>
-                            <li class="breadcrumb-item active" aria-current="page"><Link href="/shop">Shop</Link></li>
+                            <li class="breadcrumb-item"><a href="/home">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="/shop">Shop</a></li>
                         </ol>
                     </nav>
                 </div>
