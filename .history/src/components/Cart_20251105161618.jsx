@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from './common/Layout'
 import Home from './home'
 import Shop from './shop'
-import { Link } from 'react-router-dom'
 
 const Cart = () => {
     return (
@@ -21,7 +20,7 @@ const Cart = () => {
                 </div>
             </div>
         </Layout>
-    
+        
     )
 }
 

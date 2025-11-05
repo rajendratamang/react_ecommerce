@@ -21,7 +21,7 @@ const Cart = () => {
                 </div>
             </div>
         </Layout>
-    
+        <Link
     )
 }
 
