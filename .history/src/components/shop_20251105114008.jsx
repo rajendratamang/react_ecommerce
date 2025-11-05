@@ -2,16 +2,15 @@ import React from 'react'
 import Hero from './common/Hero'
 import Layout from './common/Layout'
 import ProductImg from '../assets/images/eight.jpg'
-import { Link } from 'react-router-dom'
 const Shop = () => {
     const products = [1, 2, 3, 4];
     return (
         <Layout>
             <div className="container">
                 <nav aria-label="breadcrumb" className='py-4'>
-                    <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">Home</a></li>
-                        <li className="breadcrumb-item active" aria-current="page">Shop</li>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Shop</li>
                     </ol>
                 </nav>
                 <div className="row">
@@ -72,12 +71,10 @@ const Shop = () => {
                                 <div className="col-md-4 col-6" key={index}>
                                     <div className="product card border-0">
                                         <div className="card-img">
-                                            <Link to="/product">
                                             <img src={ProductImg} alt="" className='w-100' />
-                                            </Link>
                                         </div>
                                         <div className="card-body pt-3">
-                                            <Link to="/product">Red Check Shirt For Woman</Link>
+                                            <aLin href="">Red Check Shirt For Woman</aLink>
                                             <div className="price">
                                                 $50 <span className='text-decoration-line-through'>$80</span>
                                             </div>
