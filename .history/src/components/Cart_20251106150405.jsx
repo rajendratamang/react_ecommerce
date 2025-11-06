@@ -8,7 +8,7 @@ import ProductImg from '../assets/images/Mens/six.jpg'
 const Cart = () => {
     return (
         <Layout>
-            <div className="container pb-5">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <nav aria-label="breadcrumb" className='py-4'>

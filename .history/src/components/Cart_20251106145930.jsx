@@ -8,7 +8,7 @@ import ProductImg from '../assets/images/Mens/six.jpg'
 const Cart = () => {
     return (
         <Layout>
-            <div className="container pb-5">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <nav aria-label="breadcrumb" className='py-4'>
@@ -45,26 +45,23 @@ const Cart = () => {
                             </tbody>
                         </table>
                     </div>
-
+                    
                 </div>
                 <div className="row justify-content-end">
                     <div className="col-md-3">
-                        <div className="d-flex justify-content-between border-bottom pb-2">
-                            <div className="">Subtotal</div>
+                         <div className="d-flex">
+                            <div className=""><strong>Subtotal</strong></div>
                             <div className="">Rs.20</div>
-                        </div>
-                        <div className="d-flex justify-content-between border-bottom py-2">
-                            <div className="">
-                                Shipping</div>
+                         </div>
+                          <div className="d-flex">
+                            <div className=""><strong>
+                                Shipping</strong></div>
                             <div className="">Rs.50</div>
-                        </div>
-                        <div className="d-flex justify-content-between border-bottom py-2">
-                            <div className=""><strong>Grand Total</strong></div>
+                         </div>
+                          <div className="d-flex">
+                            <div className=""><strong></strong></div>
                             <div className="">Rs.70</div>
-                        </div>
-                     <div className="d-flex justify-content-end py-3">
-                           <button className='btn btn-primary'>Proceed To Checkout</button>
-                     </div>
+                         </div>
                     </div>
                 </div>
             </div>
