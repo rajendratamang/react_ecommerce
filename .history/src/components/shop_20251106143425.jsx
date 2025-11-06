@@ -3,16 +3,14 @@ import Hero from './common/Hero'
 import Layout from './common/Layout'
 import ProductImg from '../assets/images/eight.jpg'
 import { Link } from 'react-router-dom'
-import Home from './home'
 const Shop = () => {
     const products = [1, 2, 3, 4];
     return (
         <Layout>
-            
             <div className="container">
                 <nav aria-label="breadcrumb" className='py-4'>
                     <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link tp="">Home</Link></li>
                         <li className="breadcrumb-item active" aria-current="page">Shop</li>
                     </ol>
                 </nav>
