@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from './common/Layout'
-import { Link } from 'react-router-dom'
+
 const Checkout = () => {
     return (
         <Layout>
@@ -11,7 +11,7 @@ const Checkout = () => {
                             <nav aria-label="breadcrumb" className='py-4'>
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item"><Link to="">Home</Link></li>
-                                    <li className="breadcrumb-item" ><Link to="">Shop</Link></li>
+                                    <li className="breadcrumb-item" ><Link to="/shop">Shop</Link></li>
                                     <li className="breadcrumb-item active" aria-current="page">Cart</li>
                                 </ol>
                             </nav>

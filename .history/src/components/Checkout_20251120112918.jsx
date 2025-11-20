@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from './common/Layout'
-import { Link } from 'react-router-dom'
+
 const Checkout = () => {
     return (
         <Layout>
