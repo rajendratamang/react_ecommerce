@@ -23,7 +23,7 @@ const Checkout = () => {
                         <form action="">
                             <div className="row">
                                 <div className="col-md-6">
-                                    <input type="text" className='form-control' placeholder='Name'/>
+                                    <input type="text" className='form-control' placeholder=''/>
                                 </div>
                             </div>
                         </form>

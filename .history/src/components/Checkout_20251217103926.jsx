@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Checkout = () => {
     return (
         <Layout>
-            <div className="container pb-5">
+            <div className="container">
                 <div div className='row' >
                     <div className="col-md-12">
                         <div className="col-md-12">
@@ -17,18 +17,7 @@ const Checkout = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-7">
-                        <h3 className="border-bottom pb-3"><strong>Billing Address</strong></h3>
-                        <form action="">
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <input type="text" className='form-control' placeholder='Name'/>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>   
+                .row
             </div>
         </Layout>
     )

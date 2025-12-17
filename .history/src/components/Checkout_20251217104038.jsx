@@ -19,14 +19,7 @@ const Checkout = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-7">
-                        <h3 className="border-bottom pb-3"><strong>Billing Address</strong></h3>
-                        <form action="">
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <input type="text" className='form-control' placeholder='Name'/>
-                                </div>
-                            </div>
-                        </form>
+                        <div className="border-bottom pb-3"></div>
                     </div>
                 </div>   
             </div>
